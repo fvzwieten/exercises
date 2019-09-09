@@ -103,7 +103,7 @@ Nothing stops us from already deploying a VM in Azure. You can use that VM in th
 3. Go to _Templates_ in the left main menu. Here, you see a list of job templates that begin with azure_ and are shared with you and you are allowed to execute.
 4. Next to each template you see a _run_ icon in the form of a flying rocket. Click on the one next to the job template called _azure_create_vm_.
 5. You will be presented with a _survey_. A survey is a simple form to ask for input parameters for this run. Each field is self explanatory. The password field is already prefilled with the password you also use to log into tower and git. You are free to change it, but then please remember it for later.
-6. Fill all fields and press _NEXT_. Choose values that you can later use in your workflow, so use a role you need. Remember all input you use here. You need them later! Also make sure you enter valid values. Now click _NEXT_.
+6. Fill all fields and press _NEXT_. Create a Linux webserver and choose values that you can later use in your workflow. Remember all input you use here. You need them later! Also make sure you enter valid values. Now click _NEXT_.
 7. You get to (p)review what you entered. You also see the var names that will be populated with these values in the playbooks. Press _LAUNCH_ when all is good.
 8. You now see the _JOBS_ window appear with logging in the right pane as the job executes. The left pane shows all metadata of the job.
 
